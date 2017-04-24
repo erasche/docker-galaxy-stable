@@ -11,6 +11,8 @@ ALLOW_ADMINISTRATOR = \$(CONDOR_HOST)
 ALLOW_OWNER = \$(FULL_HOSTNAME), \$(ALLOW_ADMINISTRATOR)
 ALLOW_READ = *
 ALLOW_WRITE = *
-ALLOW_CLIENT = *" > /etc/condor/condor_config.local
+ALLOW_CLIENT = *
+SCHED_NAME = $CONDOR_HOST
+" > /etc/condor/condor_config.local
 
 /usr/sbin/condor_master -pidfile /var/run/condor/condor.pid -f -t
