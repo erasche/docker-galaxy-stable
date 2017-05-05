@@ -3,6 +3,9 @@ set -x
 
 ANSIBLE_REPO=galaxyproject/ansible-galaxy-extras
 ANSIBLE_RELEASE=78a4509c77ae4e25417cdcb49f7827f328b8c3cb
+ANSIBLE_REPO=voegtlel/ansible-galaxy-extras
+ANSIBLE_RELEASE=558ddf512fa04be07f52052a6a9ba02585a6dfa8
+
 
 GALAXY_RELEASE=release_17.01
 GALAXY_REPO=galaxyproject/galaxy
